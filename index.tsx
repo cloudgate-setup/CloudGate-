@@ -1,9 +1,9 @@
+import { useState, useCallback } from "react";
+import Image from "next/image";
 import { Card, CardContent } from "../components/ui/card";
 import { Button } from "../components/ui/button";
 import { Input } from "../components/ui/input";
 import { Textarea } from "../components/ui/textarea";
-import { useState, useCallback } from "react";
-import Image from "next/image";
 
 export default function CloudGateLandingPage() {
   const [form, setForm] = useState({ name: '', store: '', email: '', phone: '', interest: '', message: '' });
